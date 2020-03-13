@@ -13,7 +13,6 @@ public class EmployeeController {
     @Autowired
     EmployeeServiceImpl employeeService;
 
-    //enter
     @GetMapping("/getEmployees")
     public List<Employee> getEmployees() {
         return employeeService.getEmployees();
