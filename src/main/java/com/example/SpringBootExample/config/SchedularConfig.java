@@ -5,5 +5,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class SchedularConfig {
 
-    public void schedule(){}
+    public void schedule(){
+        System.out.println("hello");
+    }
 }
